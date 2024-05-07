@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: rgb(255, 255, 255);
+    font-family: Gilroy-Bold;
+}
+
+a {
+    text-decoration: none;
+}
+
+ 
+    
+.header {
+    padding-top: 140px;
+    padding-bottom: 125px;
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(3, 370px);
+    justify-content: center; 
+}
+     
+
+
+.item {
+    box-shadow: 15px 25px 56px 6px rgba(0, 0, 0, 0.06);
+    background: rgb(255, 255, 255);
+}
+
+.heading {
+    padding-top: 25px;
+    padding-bottom: 17px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    text-align: left;
+    color: rgb(0, 0, 0);
+}
+
+.item__text {
+    padding-bottom: 25px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 150%;
+    text-align: left;
+    color: rgb(102, 102, 102);
+}
+
+.content {
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(3, 370px);
+    justify-content: center; 
+    
+}
+
+.item__big {
+    padding-top: 55px;
+    padding-bottom: 100px;
+    text-align: center;
+    box-shadow: 15px 25px 60px -5px rgba(0, 0, 0, 0.1);
+    background: rgb(255, 255, 255); 
+}
+
+.heading_title {
+    padding-top: 21px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+.heading_text {
+    padding-top: 22px;
+    padding-bottom: 39px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 150%;
+    text-align: center;
+    color: rgb(102, 102, 102); 
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    padding-top: 92px;
+    padding-bottom: 54px; 
+     
+    height: 123px;
+     
+    
+}
+
+.title {
+    width: 676px;
+    height: 48px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 45px;
+    text-align: center;
+    line-height: 150%;
+    color: rgb(0, 0, 0); 
+}
+
+.text {
+    padding-top: 19px;
+    padding-bottom: 54px;
+    width: 658.8px;
+    height: 56px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    color: rgb(102, 102, 102);
+}
